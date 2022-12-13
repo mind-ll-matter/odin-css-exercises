@@ -24,3 +24,35 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+/*------------------------------------------*/
+
+body {
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center; /* these 2 lines could've been replaced with just text-align: center on the body element because of inheritance"
+}
+
+
+.container {
+  display: flex;
+  gap: 52px;
+  margin: 32px 64px;
+}
+
+.card {
+  display: flex; /* unnecessary */
+  flex-direction: column; /* unnecessary */
+  align-items: center; /* unnecessary (could've replaced all 3 lines with justify-content: center*/
+  width: 200px; 
+  flex-wrap: wrap; /* unnecessary */
+}
+
+.text {
+  justify-content: center; /*this was unnecessary*/
+  text-align: center; /* could've been put in body aswell*/
+}
