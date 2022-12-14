@@ -34,7 +34,7 @@ body {
 
 .title {
   display: flex;
-  justify-content: center; /* these 2 lines could've been replaced with just text-align: center on the body element because of inheritance"
+  justify-content: center; /* these 2 lines could've been replaced with just text-align: center on the body element because of inheritance"*/
 }
 
 
